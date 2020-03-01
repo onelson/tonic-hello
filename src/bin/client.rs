@@ -2,6 +2,7 @@ use hello_world::greeter_client::GreeterClient;
 use hello_world::HelloRequest;
 
 pub mod hello_world {
+    // FIXME: symbols included here are without completions
     tonic::include_proto!("helloworld");
 }
 
